@@ -1,0 +1,164 @@
+header {
+    background-color: #28666e;
+    color: #fedc97;
+}
+
+.upper-header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#header-logo {
+    padding: 30px;
+    font-size: 40px;
+    opacity: 0.6;
+    font-family: 'Allura', cursive;
+    margin: 20px;
+    background-color: lightgray;
+    border-radius: 50%;
+    color: #033f63;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-end;
+    padding: 16px;
+    margin-bottom: 8px;
+
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    border-bottom: 2px solid #033f63;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    gap: 5px;
+    color: #fedc97;
+    font-size: 20px;
+    font-family: 'Allura', cursive;
+
+
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-family: 'Allura', cursive;
+    font-size: 60px;
+}
+
+.description {
+    padding: 10px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+    max-width: 700px;
+    font-family: 'Montagu Slab', serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+button {
+    border-radius: 4px;
+    background-color: #b5b682;
+    font-size: 18px;
+    color: #033f63;
+    transition-duration: 0.4s;
+    font-family: 'Montagu Slab', serif;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #fedc97;
+}
+
+
+.photo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    font-size: 12px;
+}
+
+header img {
+    height: 300px;
+    width: 300px;
+    border-radius: 30%;
+}
+
+.content {
+    background-color: #b5b682;
+    text-align: center;
+    color: #033f63;
+    font-family: 'Montagu Slab', serif;
+    margin-top: -30px;
+
+}
+
+.content h2 {
+    font-family: 'Allura', cursive;
+    font-size: 36px;
+
+}
+
+.blog-posts {
+    display: flex;
+    justify-content: space-around;
+}
+
+.blog-posts img {
+    max-width: 250px;
+    height: auto;
+    opacity: .6;
+}
+
+.posts {
+    max-width: 250px;
+    font-size: 16px;
+}
+
+.posts img {
+    border-radius: 20%;
+}
+
+h2 {
+    padding: 20px;
+}
+
+.quote {
+    background-color: #033f63;
+    font-family: 'Allura', cursive;
+    font-size: 52px;
+    color: #fedc97;
+    height: 280px;
+    padding: 200px;
+    text-align: center;
+}
+
+.newsletter {
+    background-color: #b5b682;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 300px;
+    padding: 50px;
+}
+
+.action {
+    background-color: #fedc97;
+    padding: 40px;
+    border-radius: 3px;
+}
