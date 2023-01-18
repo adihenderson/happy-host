@@ -13,7 +13,7 @@ header {
     padding: 30px;
     font-size: 40px;
     opacity: 0.6;
-    font-family: 'Allura', cursive;
+    font-family: 'Cedarville Cursive', cursive;
     margin: 20px;
     background-color: lightgray;
     border-radius: 50%;
@@ -33,7 +33,7 @@ header {
     display: flex;
     justify-content: space-between;
     gap: 30px;
-    border-bottom: 2px solid #033f63;
+    border-bottom: 1px solid #033f63;
 }
 
 li {
@@ -45,18 +45,18 @@ a {
     gap: 5px;
     color: #fedc97;
     font-size: 20px;
-    font-family: 'Allura', cursive;
+    font-family: 'Cedarville Cursive', cursive;
 
 
 }
 
 .about {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 h1 {
-    font-family: 'Allura', cursive;
+    font-family: 'Cedarville Cursive', cursive;
     font-size: 60px;
 }
 
@@ -72,12 +72,14 @@ h1 {
 
 button {
     border-radius: 4px;
+    border: 2px solid #033f63;
     background-color: #b5b682;
     font-size: 18px;
     color: #033f63;
     transition-duration: 0.4s;
     font-family: 'Montagu Slab', serif;
     margin-top: 20px;
+    flex-grow: 0;
 }
 
 button:hover {
@@ -109,7 +111,7 @@ header img {
 }
 
 .content h2 {
-    font-family: 'Allura', cursive;
+    font-family: 'Cedarville Cursive', cursive;
     font-size: 36px;
 
 }
@@ -140,25 +142,53 @@ h2 {
 
 .quote {
     background-color: #033f63;
-    font-family: 'Allura', cursive;
-    font-size: 52px;
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 48px;
     color: #fedc97;
-    height: 280px;
-    padding: 200px;
+    height: 320px;
+    padding: 50px;
     text-align: center;
 }
 
 .newsletter {
-    background-color: #b5b682;
     display: flex;
     justify-content: center;
     align-content: center;
-    height: 300px;
-    padding: 50px;
+    padding: 55px;
+    background-color: #fedc97;
+}
+
+.newsletter button {
+    align-self: center;
 }
 
 .action {
-    background-color: #fedc97;
-    padding: 40px;
-    border-radius: 3px;
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 15px;
+    line-height: 5px;
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+    width: 700px;
+    height: 100px;
+    flex-grow: 0;
+    background-color: #28666e;
+    color: #fedc97;
+    border-radius: 5px;
+    padding: 20px 90px;
+}
+
+
+h4 {
+    font-size: 25px;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Montagu Slab', serif;
+    background-color: #033f63;
+    color: #fedc97;
+    height: 50px;
+    margin-top: -20px;
+    padding-top: 20px;
 }
